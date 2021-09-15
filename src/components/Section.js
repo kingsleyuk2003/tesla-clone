@@ -18,7 +18,7 @@ const Section = ({ description, title, backgroundImg }) => {
             <LeftButton>Custom Order</LeftButton>
             <RightButton>Existing Inventory</RightButton>
           </ButtonGroup>
-          <DownArrow src="/images/down-arrow.svg" />
+          <DownArrow src="images/down-arrow.svg" />
         </MyFade>
       </Buttons>
     </Wrap>
@@ -31,7 +31,7 @@ const Wrap = styled.div`
   width: 100vw;
   height: 100vh;
   background-color: orange;
-  background-image: ${(props) => `url("/images/${props.backgroundImg}")`};
+  background-image: ${(props) => `url("images/${props.backgroundImg}")`};
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

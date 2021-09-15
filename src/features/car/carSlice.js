@@ -9,7 +9,6 @@ const carSlice = createSlice({
   reducers: {},
 });
 
-console.log("THIS IS STATE: ", createSlice.state); 
 
 export const selectCars = (state) => {return  state.car.cars;}
 export default carSlice.reducer;
